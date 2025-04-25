@@ -7,7 +7,9 @@
 ![Python](https://img.shields.io/badge/python-v3.11+-blue.svg)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Latest-green)
 
+
 A powerful Retrieval-Augmented Generation (RAG) system built with CrewAI that intelligently searches through documents and falls back to web search when needed. Features powerfull LLM support with Google's gemini.
+
 
 This project is actively being improved with new features, but it's already fully functional and ready to use.
 
