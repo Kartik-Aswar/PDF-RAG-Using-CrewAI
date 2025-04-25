@@ -1,0 +1,11 @@
+crewai
+crewai-tools
+pydantic
+dotenv
+markitdown
+streamlit
+unstructured
+sentence-transformer
+firecrawl
+
+
