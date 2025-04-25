@@ -3,11 +3,13 @@
 
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/yourusername/agentic-rag-crewai)
+
 ![Python](https://img.shields.io/badge/python-v3.11+-blue.svg)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Latest-green)
 
-A powerful Retrieval-Augmented Generation (RAG) system built with CrewAI that intelligently searches through documents and falls back to web search when needed. Features local LLM support with deep-seek-r1 or llama 3.2!
+A powerful Retrieval-Augmented Generation (RAG) system built with CrewAI that intelligently searches through documents and falls back to web search when needed. Features powerfull LLM support with Google's gemini.
+
+This project is actively being improved with new features, but it's already fully functional and ready to use.
 
 </div>
 
@@ -15,7 +17,7 @@ A powerful Retrieval-Augmented Generation (RAG) system built with CrewAI that in
 
 - 📚 Document-based search with RAG capabilities
 - 🌐 Automatic fallback to web search
-- 🤖 Local LLM support (deep-seek-r1 or llama 3.2)
+- 🤖 Powerful Google's LLM support (gemini-2.0-flash)
 - 🔄 Seamless integration with CrewAI
 - 💨 Fast and efficient document processing
 - 🎯 Precise answer synthesis
@@ -72,8 +74,8 @@ graph TD
 Before running the application, ensure you have:
 
 1. **API Keys**:
-   - FireCrawl API or SEPER API key for web search capabilities
-   - LLM API key (if required for your chosen model)
+   - SEPER API key for web search capabilities
+   - LLM API key 
 
 2. **Python Environment**:
    - Python 3.11 or later
@@ -99,16 +101,8 @@ Before running the application, ensure you have:
 
 ## 🎮 Running the Application
 
-Choose your preferred LLM model:
-
-- **For deep-seek-r1**:
   ```bash
-  streamlit run app_deep_seek.py
-  ```
-
-- **For llama 3.2**:
-  ```bash
-  streamlit run app_llama3.2.py
+  streamlit run app.py
   ```
 
 ## 🛠️ System Architecture
@@ -147,18 +141,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [CrewAI](https://github.com/joaomdmoura/crewai) for the amazing framework
-- The open-source community for various tools and libraries used in this project
-
----
-
-<div align="center">
-Made with ❤️ by [KNA]
-</div>
 
